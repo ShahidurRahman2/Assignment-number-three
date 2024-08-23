@@ -8,9 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     
-<style>
+<style >
   .footer-before{
     background-image: url(./assets/bg.jpg);
+   
   }
 </style>
 </head>
@@ -86,7 +87,7 @@
         <div class="">
           <img class="ml-[50px]" src="./assets/Vector.png" alt="">
         </div>
-        <div class="main-one mx-auto lg:w-10/12 mt-4">
+        <div class="main-one lg:w-10/12 mt-4 continer px-8   mx-auto">
           <div class="about-us lg:flex space-x-3">
           <div class="text-container lg:w-6/12">
             <button class="btn bg-white"><i class="fa-solid fa-arrow-right"></i>About Us</button>
@@ -119,7 +120,7 @@
       </section>
       <!-- -------part three start--------- -->
  <section class="bg-[#F4F4F4]">
-  <div class="work-process  mx-auto w-10/12  ">
+  <div class="work-process  mx-auto w-10/12 pb-[50px] ">
     <button class="w-2/12 mx-auto btn bg-white p-1 rounded-lg lg:ml-[450px]"><i class="fa-solid fa-arrow-right text-black"></i>How we works</button>
     <h1 class="text-center text-4xl font-bold">Our Works Process</h1>
     <p class="text-center text-xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -148,26 +149,86 @@
    
   </div>
  </section>
- <section class="footer-before">
-  <div class=" mx-auto w-10/12 ">
-    <h6>Let’s Connect</h6>
-    <h1>Let’s Discuss Next Project</h1>
-    <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-    <div class="grid grid-cols-2 ">
+ <!-- ---------------challange part------------- -->
+ <section class="w-10/12 mx-auto my-[40px]">
+  <div class=" container ">
+    <button class="text-1xl text-center btn bg-[#EEFCDF] rounded-[20px] lg:ml-[450px] " ><i class="fa-solid fa-arrow-right"></i>Explore our Latest works</button>
+    <h1 class="text-3xl text-center">Our Latest Portfolio</h1>
+    <p class="text- text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+  </div>
+ <div class="parent  ">
+    <div class="lg:flex space-x-3 my-5">
+      <div class="part-A w-8/12 lg:flex border-[2px bg-slate-800]">
+        <div class="border-[2px solid bg-slate-800]">
+          <img class="w-[100%] h-[100%]" src="./assets/img1.png" alt="">
+        </div>
+        <div class=" space-x-3">
+      <h1>Commercial</h1>
+      <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+       <h1>View Details</h1> 
+    </div>
+      </div>
+      <div class="part-B w-4/12 border-b-slate-800">
+        <img class="w-[100%]" src="./assets/img2.png" alt="">
+      </div>
+    </div>
+  <div class="lg:flex space-x-3">
+    <div class="part-C w-4/12 border-b-slate-800">
+      <img class="w-[100%]" src="./assets/img3.png" alt="">
+    </div>
+    <div class="part-D lg:flex w-8/12">
+      <div class="w-1/2 border-b-slate-800">
+        <img class="w-[100%] h-[100%]" src="./assets/img4.png" alt="">
+      </div>
+      <div class="text w-1/2">
+        <h1>Commercial</h1>
+     <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+     <h1>View Details</h1>
+      </div>
+    </div>
+    <div class="part-E w-4/12 border-b-slate-800">
+      <img class="w-[100%]" src="./assets/img5.png" alt="">
+    </div>
+  </div>
+ </div>
+
+ </section>
+ <section class="footer-before sm:bg-hidden">
+  <div class=" mx-auto w-10/12 pt-6 pb-[50px] ">
+    <button class=" btn bg-[#E0EED1]  lg:ml-[450px] mt-6 ">Let’s Connect<i class="fa-solid fa-arrow-right"></i></button>
+    <h1 class="text-3xl text-center ">Let’s Discuss Next Project</h1>
+    <p class="text-xl text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <div class="grid lg:grid-cols-2 ">
       
       
       
-      <div class=" py-2 border-purple-400 "><input class="px-[150px]" type="text" placeholder="First Name" ></div>
-      <div class=" py-2"><input type="text" placeholder="Last Name" class="px-[150px]"></div>
+      <div class=" py-2 border-purple-400 "><input class="lg:px-[150px] py-5 rounded-lg px-[90px] " type="text" placeholder="First Name" ></div>
+      <div class=" py-2"><input type="text" placeholder="Last Name*" class=" rounded-lg px-[90px] lg:px-[150px] py-5"></div>
       
-      <div class=" py-2"><input type="number" placeholder="Write Your Number" class="px-[150px]"></div>
-      <div class=" py-2"><input type="email" placeholder="Write Your Email" class="px-[150px]"></div>
+      <div class=" py-2"><input type="text" placeholder="Your Number*" class=" rounded-lg px-[90px] lg:px-[150px] py-5"></div>
+      <div class=" py-2"><input type="email" placeholder="Your Email*" class=" rounded-lg px-[90px]  lg:px-[150px] py-5"></div>
+      <div class=" mx-auto mt-10">
+        <textarea class="lg:w-[1007px] px-[110px] rounded-[5px] lg:py-[100px]" name="" id="" placeholder="Write Your Comment*"></textarea>
+      </div>
+      <br>
+      <button class="btn  lg:w-[1000px] mx-auto lg:ml-1   bg-[#ABEF5F] ml-[120px] mt-4">Send Mail<i class="fa-solid fa-arrow-right text-black"></i></button>
     </div>
   </div>
  </section>
     </main>
-    <footer>
-
+    <footer class="bg-black pt-11">
+     <div class="container mx-auto w-10/12 text-white ">
+      <h1 class="text-center mb-11"><i class="fa-solid fa-arrow-right"></i>Rinterio</h1>
+      <p class="w-8/12 mx-auto text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <ul class="grid text-center lg:grid-cols-5 mt-11">
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact Us </a></li>
+      </ul>
+      <button class="btn text-2xl text-[400] ml-[80px] lg:ml-[430px] mt-8 bg-[#ABEF5F]">Book Consult<i class="fa-solid fa-arrow-right bg-black text-zinc-50 rounded-3xl "></i></button>
+     </div>
     </footer>
 
 </body>
