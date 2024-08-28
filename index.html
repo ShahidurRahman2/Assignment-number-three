@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-thems="light">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,38 +23,7 @@
        
           <i class="fa-solid fa-arrow-right bg-green-500 -rotate-45 rounded-lg lg:flex "></i>
           <a class="btn btn-ghost text-xl">Rinterio</a>
-             <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Home</a></li>
-              <li><a>Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-             
-              <li><a>Contact us</a></li>
-            </ul>
-            <div class="navbar-end space-x-3 dropdown-content z-[1] flex">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-cart-shopping"></i>
-                 
-            <a class="btn bg-green-500">Book Consult</a>
-          </div>
-          </div>
+
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal mr-[200px] px-1">
@@ -73,10 +42,42 @@
                
           <a class="btn bg-green-500">Book Consult<i class=" -rotate-45  fa-solid fa-arrow-right bg-black text-zinc-50 rounded-3xl "></i></a>
         </div>
+        <div class="dropdown navbar-end text-right">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+           
+            <li><a>Contact us</a></li>
+          </ul>
+          <div class="navbar-end space-x-3 dropdown-content z-[1] flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+               
+          <a class="btn bg-green-500">Book Consult</a>
+        </div>
+        </div>
       </div>
       <div class="banner-part flex flex-col justify-center">
         <img class="w-9/12 mx-auto" src="./assets/banner.png" alt="">
-        <h1 class="text-5xl w-10/12 mx-auto">A barn house of this design has a <br class="sm:hidden">striking appearance</h1>
+        <h1 class="lg:text-5xl lg:w-11/12 text-2xl mx-auto">A barn house of this design has a striking appearance</h1>
         <p class="w-11/12 mx-auto mt-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
         <button class="flex btn bg-green-400 w-10/12 lg:w-2/12 mx-auto sm:px-[10px]"><h6>View Details</h6><i class="fa-solid fa-arrow-right bg-green-500 -rotate-45 rounded-lg"></i></button>
       </div>
@@ -85,9 +86,9 @@
     <main class="">
       <section class="  bg-[#F4F4F4] pb-11 ">
         <div class="">
-          <img class="ml-[50px]" src="./assets/Vector.png" alt="">
+          <img class="lg:ml-[50px] hidden sm:block" src="./assets/Vector.png" alt="">
         </div>
-        <div class="main-one w-10/12 mt-4 continer    mx-auto">
+        <div class="main-one w-10/12 mt-4 continer mx-auto">
           <div class="about-us lg:flex space-x-3 ">
           <div class="text-container lg:w-6/12 ">
             <button class="btn bg-white mb-7"><i class="fa-solid fa-arrow-right"></i>About Us</button>
@@ -120,7 +121,7 @@
       </section>
       <!-- -------part three start--------- -->
  <section class="bg-[#F4F4F4]">
-  <div class="work-process  mx-auto w-10/12 pb-[50px] text-center">
+  <div class="work-process  mx-auto w-10/12 pb-[50px] text-center overflow-hidden">
     <button class="lg:w-2/12 mx-auto btn bg-white p-1 rounded-lg"><i class="fa-solid fa-arrow-right text-black"></i>How we works</button>
     <h1 class="text-center text-4xl font-bold">Our Works Process</h1>
     <p class="text-center text-xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -150,7 +151,7 @@
   </div>
  </section>
  <!-- ------------challange part-1.5--------- -->
-<section class="w-full px-4 pt-9 lg:px-8 lg:pt-20 lg:pb-20 mx-auto flex flex-col items-center pb-8">
+<section class="w-full pt-9 lg:px-8 lg:pt-20 lg:pb-20 mx-auto sm:px-80 sm:mx-3 flex flex-col items-center pb-8">
         <button class="border-[#ABEF5F] mb-10"><a class="btn bg-[#e2ffc1f9] text-lg font-extrabold rounded-3xl w-[300px] lg:w-full"><i class="fa-solid fa-arrow-right text-xl mr-2 rounded-full w-7 h-7 items-center justify-center text-black"></i>Customer Review</a></button>
         <h2 class="text-center text-bfontclr mt-5 font-bold text-2xl lg:text-[40px] mb-6 px-5 xl:px-0">
         What Our Clients Say
@@ -356,10 +357,10 @@
       <img class="w-[100%] p-4 h-[100%]" src="./assets/img3.png" alt="">
     </div>
     <div class="part-D lg:flex lg:w-8/12 w-full  border border-red-2 rounded-2xl">
-      <div class="lg:w-1/2 ">
+      <div class="">
         <img class="w-[100%] h-[100%] p-4" src="./assets/img4.png" alt="">
       </div>
-      <div class="text w-1/2 py-11">
+      <div class="text sm:w-full px-3 py-11">
         <h1 class="text-2xl">Commercial</h1>
      <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
      <button class="pt-2  text-xl space-x-2">View Details <i class="fa-solid fa-arrow-right bg-green-500 -rotate-45 rounded-3xl"></i></button>
@@ -381,11 +382,11 @@
       
       
       
-      <div class=" py-2 border-purple-400 "><input class="lg:px-[150px] py-5 rounded-3xl px-[90px] " type="text" placeholder="First Name" ></div>
-      <div class=" py-2"><input type="text" placeholder="Last Name*" class=" rounded-3xl px-[90px] lg:px-[150px] py-5"></div>
+      <div class=" py-2 border-purple-400 "><input class="lg:px-[150px] py-4 rounded-3xl px-[75px] " type="text" placeholder="First Name" ></div>
+      <div class=" py-2"><input type="text" placeholder="Last Name*" class="rounded-3xl px-[75px] lg:px-[150px] py-5"></div>
       
-      <div class=" py-2"><input type="text" placeholder="Your Number*" class=" rounded-3xl px-[90px] lg:px-[150px] py-5"></div>
-      <div class=" py-2"><input type="email" placeholder="Your Email*" class=" rounded-3xl px-[90px]  lg:px-[150px] py-5"></div>
+      <div class=" py-2"><input type="text" placeholder="Your Number*" class="rounded-3xl px-[75px] lg:px-[150px] py-5"></div>
+      <div class=" py-2"><input type="email" placeholder="Your Email*" class="rounded-3xl px-[75px]  lg:px-[150px] py-5"></div>
       <div class=" mx-auto mt-10">
         <textarea class="w-12/12 lg:px-[420px]   rounded-3xl lg:py-[100px]" name="" id="" placeholder="Write Your Comment*"></textarea>
       </div>
